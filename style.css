@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom,#0F2027, #203A43, #2C5364);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: gilroy;
+}
+.box{
+    width: 70%;
+    height: 80%;
+    border-radius: 20px;
+    box-shadow: 0px 5px 20px rgb(5, 5, 5);
+    overflow: hidden;
+    display: flex;
+}
+.image{
+    width: 55%;
+    height: 100%;
+}
+.image > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.share{
+    width: 45%;
+    height: 100%;
+    padding:20px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap:50px;
+    background-color: rgb(248, 247, 241);
+}
+.share h1{
+    font-size:25px;
+    color:rgb(175, 18, 18);
+    text-shadow: 1px 1px 0px rgb(199, 199, 199);
+}
+.links{
+    width: 100%;
+    height: 40%;
+    border-radius: 20px;
+    box-shadow: inset 0px 0px 10px rgba(3, 89, 94, 0.457)
+}
+.links {
+    width: 100%;
+    padding:20px 30px;
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.links > section{
+    width: 70px;
+}
+.links > section >i{
+    font-size:25px;
+}
+.links > section > p{
+    font-size: 13px;
+}
+.option{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+}
+.option > button{
+    padding:10px 25px;
+    font-size: 14px;
+    font-family: gilroy;
+    color:white;
+    background-color: black;
+    border: 1px solid black;
+    cursor: pointer;
+}
